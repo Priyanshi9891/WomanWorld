@@ -22,16 +22,15 @@ export default function Home() {
 
       <main>
         <Hero />
-        <About />
-        <WhyChooseUs />
         <Services />
+        <About />
         <Offers />
-        <Branches />
-        <ImpactMatrix />
         <BeforeAfter />
+        <WhyChooseUs />
         <Gallery />
-        <Certificates />
+        <Branches />
         <Reviews />
+        <ImpactMatrix />
         <FAQ />
         <Contact />
       </main>

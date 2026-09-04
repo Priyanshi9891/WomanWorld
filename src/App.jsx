@@ -7,36 +7,44 @@ import ContactPage from "./pages/ContactPage";
 import AcademicAboutPage from "./pages/AcademicAboutPage";
 import BookServicesPage from "./pages/BookServicesPage";
 
+import LoadingScreen from "./components/LoadingScreen";
+
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
+    <>
+      {/* Full-screen loading page */}
+      <LoadingScreen />
 
-      <Route
-        path="/services"
-        element={<ServicesPage />}
-      />
+      {/* Website Routes */}
+      <Routes>
+        <Route path="/" element={<Home />} />
 
-      <Route
-        path="/offers"
-        element={<OffersPage />}
-      />
+        <Route
+          path="/services"
+          element={<ServicesPage />}
+        />
 
-      <Route
-        path="/contact"
-        element={<ContactPage />}
-      />
+        <Route
+          path="/offers"
+          element={<OffersPage />}
+        />
 
-      <Route
-        path="/academic-about"
-        element={<AcademicAboutPage />}
-      />
+        <Route
+          path="/contact"
+          element={<ContactPage />}
+        />
 
-      <Route
-        path="/book-services"
-        element={<BookServicesPage />}
-      />
-    </Routes>
+        <Route
+          path="/academic-about"
+          element={<AcademicAboutPage />}
+        />
+
+        <Route
+          path="/book-services"
+          element={<BookServicesPage />}
+        />
+      </Routes>
+    </>
   );
 }
 

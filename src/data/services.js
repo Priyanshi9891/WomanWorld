@@ -282,13 +282,13 @@ export const services = [
   // =====================================================
   // COURSES
   // =====================================================
-  { id: 172, title: "Hair Chemical - Basic Course (3-6 Months)", category: "Courses", price: "39,999/-", image: "/images/services/courseh.jpg" },
-  { id: 173, title: "Hair Chemical - Advance Course (3-6 Months)", category: "Courses", price: "49,999/-", image: "/images/services/courseh.jpg" },
-  { id: 174, title: "Makeup Course (3-6 Months)", category: "Courses", price: "39,999/-", image: "/images/services/course.jpg" },
-  { id: 175, title: "Makeup Advance Course (6-12 Months)", category: "Courses", price: "39,999/-", image: "/images/services/course.jpg" },
-  { id: 176, title: "Self Grooming Course (3 Months)", category: "Courses", price: "29,999/-", image: "/images/services/course.jpg" },
+  { id: 172, title: "Hair Chemical - Basic Course (3-6 Months)", category: "Courses", price: "39,999/-", image: "/images/academic/hair-chemical-basic.jpg" },
+  { id: 173, title: "Hair Chemical - Advance Course (3-6 Months)", category: "Courses", price: "49,999/-", image: "/images/academic/advance-hair-course.jpg" },
+  { id: 174, title: "Makeup Course (3-6 Months)", category: "Courses", price: "39,999/-", image: "/images/academic/beauty-self-basic.jpg" },
+  { id: 175, title: "Makeup Advance Course (6-12 Months)", category: "Courses", price: "39,999/-", image: "/images/academic/beauty-self-basic1.jpg" },
+  { id: 176, title: "Self Grooming Course (3 Months)", category: "Courses", price: "29,999/-", image: "/images/academic/makeup-advance.jpg" },
   { id: 177, title: "Basic Salon Course (6-12 Months)", category: "Courses", price: "39,999/-", image: "/images/services/course.jpg" },
   { id: 178, title: "Permanent Nails Extension (Course Add-on)", category: "Courses", price: "As per service", image: "/images/services/coursen.jpg" },
-  { id: 179, title: "Permanent Hair Extension (Course Add-on)", category: "Courses", price: "As per service", image: "/images/services/coursen.jpg" },
+  { id: 179, title: "Permanent Hair Extension (Course Add-on)", category: "Courses", price: "As per service", image: "/images/services/hair-color4.jpg" },
   { id: 180, title: "Eyelashes Extension (Course Add-on)", category: "Courses", price: "As per service", image: "/images/services/coursee.jpg" },
 ];

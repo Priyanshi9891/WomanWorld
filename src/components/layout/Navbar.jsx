@@ -408,8 +408,8 @@ import { Menu, X, ArrowUpRight } from "lucide-react";
 const navItems = [
   { name: "Home", path: "/" },
   { name: "Services", path: "/services" },
-  { name: "Offers", path: "/offers" },
-  { name: "Academic About", path: "/academic-about" },
+  { name: "Products", path: "/products" },
+  { name: "Academic ", path: "/academic-about" },
   { name: "Contact", path: "/contact" },
 ];
 

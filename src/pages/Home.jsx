@@ -14,7 +14,7 @@ import Certificates from "../components/home/Certificates";
 import Reviews from "../components/home/Reviews";
 import FAQ from "../components/home/FAQ";
 import Contact from "../components/home/Contact";
-
+import Academic from "../components/home/Academic";
 export default function Home() {
   return (
     <>
@@ -27,6 +27,7 @@ export default function Home() {
         <Offers />
         <BeforeAfter />
         <WhyChooseUs />
+        <Academic />
         <Gallery />
         <Branches />
         <Reviews />

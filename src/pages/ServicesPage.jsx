@@ -54,11 +54,14 @@ export default function ServicesPage() {
 
         <section className="relative h-[300px] md:h-[370px] overflow-hidden">
 
-          <img
-            src="/images/services/hero.jpg"
-            alt="Women's World beauty services"
-            className="absolute inset-0 w-full h-full object-cover"
-          />
+         <video
+  src="/images/services/hero.mp4"
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="absolute inset-0 w-full h-full object-cover"
+/>
 
           {/* Dark overlay */}
           <div className="absolute inset-0 bg-[#3d071d]/65" />

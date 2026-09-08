@@ -39,27 +39,30 @@ const branches = [
   },
 ];
 
-const initialReviews = [
+ const  initialReviews = [
   {
     id: 1,
-    name: "Priya Sharma",
+    name: "Harshita Singh",
+    date: "10 May 2025",
     rating: 5,
-    comment:
-      "Best bridal makeup experience! Sunita ma'am made me feel like a queen on my wedding day.",
+    comment: "First time visit.... Amazing experience! Their services are just amazing. Love it!",
+    service: "Beauty Services",
   },
   {
     id: 2,
-    name: "Ritu Verma",
+    name: "Anjali Singh",
+    date: "26 Jan",
     rating: 5,
-    comment:
-      "Loved my hair spa and keratin treatment. Very professional staff and spotless salon.",
+   comment: "The best experience ever I had. The work is superb. I visited for the first time, but the experience was really great. Will recommend everyone to come to this branch.",
+    service: "Salon Services",
   },
   {
     id: 3,
-    name: "Anjali Gupta",
-    rating: 4,
-    comment:
-      "Great skin services, and the academy staff are genuinely knowledgeable and patient.",
+    name: "Gaurav",
+    date: "07 Dec 2024",
+    rating: 5,
+    comment: "I had an excellent experience at Women's World Salon & Academy. The salon was hygienic, the products were high-quality, and the overall service was excellent. I left feeling rejuvenated.",
+    service: "Salon Services",
   },
 ];
 
@@ -167,7 +170,7 @@ export default function ContactPage() {
             SMALL HERO
         ====================================================== */}
 
-        <section className="relative h-[220px] md:h-[260px] overflow-hidden">
+        <section className="relative h-[300px] md:h-[360px] overflow-hidden">
 
           <img
             src="/images/contact/hero.jpg"

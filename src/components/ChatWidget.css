@@ -1,0 +1,301 @@
+/* =========================================
+   CUTE AI CHATBOT LAUNCHER
+========================================= */
+
+.ai-chat-launcher {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+
+  width: 70px;
+  height: 70px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: linear-gradient(
+    145deg,
+    #fff7f9,
+    #f8dce5
+  );
+
+  box-shadow:
+    0 8px 25px rgba(61, 7, 29, 0.28),
+    0 0 0 3px rgba(212, 175, 55, 0.35);
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 1000;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.ai-chat-launcher:hover {
+  transform: scale(1.08);
+
+  box-shadow:
+    0 12px 30px rgba(61, 7, 29, 0.35),
+    0 0 0 4px rgba(212, 175, 55, 0.45);
+}
+
+
+/* =========================================
+   ROBOT
+========================================= */
+
+.cute-robot {
+  position: relative;
+
+  width: 54px;
+  height: 58px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* =========================================
+   ANTENNA
+========================================= */
+
+.robot-antenna {
+  position: absolute;
+
+  top: -3px;
+  left: 50%;
+
+  width: 4px;
+  height: 12px;
+
+  background: #d4af37;
+
+  transform: translateX(-50%);
+  border-radius: 10px;
+
+  z-index: 1;
+}
+
+.robot-antenna span {
+  position: absolute;
+
+  width: 9px;
+  height: 9px;
+
+  top: -7px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  background: #d4af37;
+
+  border-radius: 50%;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* =========================================
+   ROBOT HEAD
+========================================= */
+
+.robot-head {
+  position: relative;
+
+  width: 50px;
+  height: 42px;
+
+  margin-top: 10px;
+
+  background: linear-gradient(
+    145deg,
+    #fff,
+    #f7e9ed
+  );
+
+  border: 2px solid #d4af37;
+
+  border-radius: 18px;
+
+  box-shadow:
+    0 5px 10px rgba(61, 7, 29, 0.18);
+
+  z-index: 2;
+}
+
+
+/* =========================================
+   ROBOT EARS
+========================================= */
+
+.robot-ear {
+  position: absolute;
+
+  top: 10px;
+
+  width: 8px;
+  height: 20px;
+
+  background: #c2185b;
+
+  border: 2px solid #d4af37;
+
+  border-radius: 8px;
+}
+
+.robot-ear.left {
+  left: -7px;
+}
+
+.robot-ear.right {
+  right: -7px;
+}
+
+
+/* =========================================
+   ROBOT FACE
+========================================= */
+
+.robot-face {
+  position: absolute;
+
+  left: 5px;
+  right: 5px;
+  top: 6px;
+  bottom: 5px;
+
+  background: linear-gradient(
+    145deg,
+    #3d071d,
+    #64112f
+  );
+
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* =========================================
+   ROBOT EYES
+========================================= */
+
+.robot-eye {
+  position: absolute;
+
+  width: 8px;
+  height: 10px;
+
+  background: #ff93b3;
+
+  border-radius: 50%;
+
+  box-shadow:
+    0 0 7px rgba(255, 147, 179, 0.8);
+}
+
+.left-eye {
+  left: 11px;
+}
+
+.right-eye {
+  right: 11px;
+}
+
+
+/* =========================================
+   CUTE SMILE
+========================================= */
+
+.robot-smile {
+  position: absolute;
+
+  width: 12px;
+  height: 6px;
+
+  bottom: 7px;
+
+  border-bottom: 3px solid #ff93b3;
+
+  border-radius: 0 0 15px 15px;
+}
+
+
+/* =========================================
+   MICROPHONE
+========================================= */
+
+.robot-mic {
+  position: absolute;
+
+  right: -6px;
+  bottom: 2px;
+
+  width: 12px;
+  height: 3px;
+
+  background: #d4af37;
+
+  border-radius: 5px;
+
+  transform: rotate(-25deg);
+}
+
+.robot-mic::after {
+  content: "";
+
+  position: absolute;
+
+  right: -3px;
+  top: -3px;
+
+  width: 7px;
+  height: 7px;
+
+  background: #d4af37;
+
+  border-radius: 50%;
+}
+
+
+/* =========================================
+   CLOSE ICON
+========================================= */
+
+.chat-close {
+  font-size: 25px;
+
+  color: #6b2737;
+
+  font-weight: 600;
+
+  line-height: 1;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 640px) {
+  .ai-chat-launcher {
+    width: 62px;
+    height: 62px;
+
+    right: 16px;
+    bottom: 16px;
+  }
+
+  .cute-robot {
+    transform: scale(0.9);
+  }
+}
+

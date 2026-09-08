@@ -438,24 +438,24 @@ export default function Navbar() {
             >
 
               {/* LOGO IMAGE - ADDED */}
-              <img
-                src="/images/logo/logo.png"
-                alt="Women's World Logo"
-                className="
-                  w-10
-                  h-10
-                  sm:w-12
-                  sm:h-12
-                  md:w-14
-                  md:h-14
-                  object-contain
-                  mr-3
-                  transition-transform
-                  duration-300
-                  group-hover:scale-105
-                "
-              />
-
+             <img
+  src="/images/logo/logo.png"
+  alt="Women's World Logo"
+  className="
+    w-10
+    h-10
+    sm:w-12
+    sm:h-12
+    md:w-14
+    md:h-14
+    rounded-full
+    object-cover
+    mr-3
+    transition-transform
+    duration-300
+    group-hover:scale-105
+  "
+/>
               <div className="flex flex-col leading-none">
 
                 {/* COMPANY NAME */}

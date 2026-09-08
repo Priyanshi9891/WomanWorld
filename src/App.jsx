@@ -6,6 +6,7 @@ import  ProductsPage from "./pages/ProductsPage";
 import ContactPage from "./pages/ContactPage";
 import AcademicAboutPage from "./pages/AcademicAboutPage";
 import BookServicesPage from "./pages/BookServicesPage";
+import ChatWidget from "./components/ChatWidget";
 
 import LoadingScreen from "./components/LoadingScreen";
 
@@ -44,6 +45,7 @@ function App() {
           element={<BookServicesPage />}
         />
       </Routes>
+        <ChatWidget />
     </>
   );
 }

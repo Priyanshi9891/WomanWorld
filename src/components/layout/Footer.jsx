@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
+import { FaGoogle } from "react-icons/fa";
 import {
   FaInstagram,
   FaFacebookF,
@@ -32,7 +33,7 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex gap-3 mt-6">
               <a
-                href="#"
+                href="https://www.instagram.com/womens_world_lanka?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
                 aria-label="Instagram"
                 className="w-10 h-10 border border-[#caa229]/40 flex items-center justify-center hover:bg-[#caa229] hover:text-[#24151a] transition"
               >
@@ -40,7 +41,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
+                href="https://www.facebook.com/womensworldsalon/"
                 aria-label="Facebook"
                 className="w-10 h-10 border border-[#caa229]/40 flex items-center justify-center hover:bg-[#caa229] hover:text-[#24151a] transition"
               >
@@ -48,12 +49,12 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
-                aria-label="YouTube"
-                className="w-10 h-10 border border-[#caa229]/40 flex items-center justify-center hover:bg-[#caa229] hover:text-[#24151a] transition"
-              >
-                <FaYoutube size={17} />
-              </a>
+  href="https://jsdl.in/DT-60262AA22MI"
+  aria-label="Google"
+  className="w-10 h-10 border border-[#caa229]/40 flex items-center justify-center hover:bg-[#caa229] hover:text-[#24151a] transition"
+>
+  <FaGoogle size={17} />
+</a>
             </div>
           </div>
 

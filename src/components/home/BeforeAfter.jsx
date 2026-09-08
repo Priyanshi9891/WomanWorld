@@ -308,33 +308,27 @@ const reels = [
   },
   {
     id: 5,
-    thumbnail: "/images/before-after/reel-4-thumb.jpg",
+    thumbnail: "/images/before-after/reel-5-thumb.jpg",
     instagramUrl:
       "https://www.instagram.com/reel/DVHCz1pDPN1/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
   },
   {
     id: 6,
-    thumbnail: "/images/before-after/reel-4-thumb.jpg",
+    thumbnail: "/images/before-after/reel-6-thumb.jpg",
     instagramUrl:
       "https://www.instagram.com/reel/DUqAppwEi3M/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
   },
   {
     id: 7,
-    thumbnail: "/images/before-after/reel-4-thumb.jpg",
+    thumbnail: "/images/before-after/reel-7-thumb.jpg",
     instagramUrl:
       "https://www.instagram.com/reel/DUFTk72kmcB/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
   },
   {
     id: 8,
-    thumbnail: "/images/before-after/reel-4-thumb.jpg",
+    thumbnail: "/images/before-after/reel-8-thumb.jpg",
     instagramUrl:
       "https://www.instagram.com/reel/DTiE9icDCWv/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
-  },
-  {
-    id: 9,
-    thumbnail: "/images/before-after/reel-4-thumb.jpg",
-    instagramUrl:
-      "https://www.instagram.com/reel/DStw_luEnZY/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
   },
 ];
 

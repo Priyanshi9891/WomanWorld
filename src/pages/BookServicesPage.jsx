@@ -1837,7 +1837,7 @@ const handleBooking = () => {
   // Using api.whatsapp.com/send — more reliable than wa.me
   // for longer messages with emojis and line breaks
   const whatsappUrl =
-    `https://api.whatsapp.com/send?phone=9598365954&text=${encodeURIComponent(message)}`;
+    `https://api.whatsapp.com/send?phone=9140632122&text=${encodeURIComponent(message)}`;
 
   // Debug check — remove these two lines once confirmed working
   console.log("Message:", message);

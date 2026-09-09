@@ -1527,49 +1527,7 @@ export default function Contact() {
               </div>
 
               {/* Email */}
-              <div className="flex items-start gap-4">
-                <div
-                  className="
-                    w-10
-                    h-10
-                    rounded-full
-                    bg-[#fce8ee]
-                    border
-                    border-[#e4c878]/50
-                    flex
-                    items-center
-                    justify-center
-                    shrink-0
-                  "
-                >
-                  <Mail size={17} className="text-[#c2185b]" />
-                </div>
-
-                <div className="min-w-0">
-                  <p
-                    className="
-                      text-[9px]
-                      uppercase
-                      tracking-[0.2em]
-                      text-[#c9a227]
-                      font-semibold
-                    "
-                  >
-                    Email Us
-                  </p>
-
-                  <p
-                    className="
-                      text-sm
-                      text-[#3d071d]
-                      mt-1
-                      break-all
-                    "
-                  >
-                    hello@womenworldbeauty.com
-                  </p>
-                </div>
-              </div>
+             
             </div>
 
             {/* ================= WHATSAPP FORM ================= */}

@@ -1837,7 +1837,7 @@ const handleBooking = () => {
   // Using api.whatsapp.com/send — more reliable than wa.me
   // for longer messages with emojis and line breaks
   const whatsappUrl =
-    `https://api.whatsapp.com/send?phone=919250048457&text=${encodeURIComponent(message)}`;
+    `https://api.whatsapp.com/send?phone=9598365954&text=${encodeURIComponent(message)}`;
 
   // Debug check — remove these two lines once confirmed working
   console.log("Message:", message);
@@ -1868,7 +1868,7 @@ const handleBooking = () => {
     setFormData({
       name: "",
       phone: "",
-      email: "",
+      
       date: "",
       time: "",
       message: "",
@@ -2280,18 +2280,8 @@ const handleBooking = () => {
                     />
                   </div>
 
-                  {/* Email Optional */}
-
-                  <FormInput
-                    label="Email (Optional)"
-                    name="email"
-                    type="email"
-                    placeholder="Your email address"
-                    value={formData.email}
-                    onChange={handleChange}
-                    error={errors.email}
-                    icon={<Mail size={17} />}
-                  />
+                 
+    
 
                   {/* Date + Time */}
 
@@ -2606,12 +2596,7 @@ const handleBooking = () => {
 
                     {/* Email only if entered */}
 
-                    {formData.email.trim() && (
-                      <PreviewRow
-                        label="Email"
-                        value={formData.email.trim()}
-                      />
-                    )}
+                    
 
                     {/* Message only if entered */}
 

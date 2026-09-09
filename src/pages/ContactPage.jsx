@@ -2110,7 +2110,7 @@ export default function ContactPage() {
               ============================================= */}
 
               <Link
-                to="/book-appointment"
+                to="//book-services"
                 className="
                   group
                   inline-flex

@@ -1814,7 +1814,7 @@ export default function Contact() {
 
               {/* Book Appointment Button */}
               <Link
-                to="/book-appointment"
+                to="/book-services"
                 className="
                   group
                   inline-flex

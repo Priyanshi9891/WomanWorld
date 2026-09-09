@@ -295,8 +295,8 @@ export default function Hero() {
             }}
           >
             Where elegance meets expertise. We bring out
-            the most beautiful version of you with premium
-            beauty services designed especially for women.
+            the most beautiful version of you with premium.
+            
           </motion.p>
 
 

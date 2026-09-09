@@ -18,18 +18,35 @@ const slideshowImages = [
 // A short highlight of 3 courses - full list lives on /academic-about
 const featuredCourses = [
   {
-    id: 1,
+     id: 1,
     title: "Hair Chemical Course",
     level: "Basic Course",
     duration: "3 to 6 Months",
     price: "₹39,999",
   },
   {
+     id: 2,
+    title: "Hair Chemical Course",
+    level: "Advance Course",
+    duration: "3 to 6 Months",
+    price: "₹49,999",
+  },
+  {
+    id: 3,
+    title: "Beauty Course",
+    level: "Self Course",
+    duration: "3 Months",
+    price: "₹29,999",
+    
+  },
+  {
+    
     id: 5,
     title: "Make Up Course",
     level: "Make Up Course",
     duration: "3 to 6 Months",
     price: "₹39,999",
+    
   },
   {
     id: 6,
@@ -37,6 +54,15 @@ const featuredCourses = [
     level: "Advance Course",
     duration: "6 to 12 Months",
     price: "₹39,999",
+    
+  },
+  {
+    id: 7,
+    title: "Beauty Course",
+    level: "Self Course",
+    duration: "3 Months",
+    price: "₹29,999",
+    
   },
 ];
 
@@ -124,11 +150,11 @@ export default function Academic() {
               text-[#c2185b]
             "
           >
-            Women's World Academy
+           
           </p>
 
           <h2 className="font-display text-4xl md:text-5xl text-[#3d071d] mt-2">
-            Learn The Art Of Beauty
+           Women's World Academy
           </h2>
 
           <p className="text-sm text-[#3d071d]/60 leading-6 mt-3">

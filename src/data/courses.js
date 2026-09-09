@@ -70,11 +70,11 @@ export const courses = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     title: "Beauty Course",
-    level: "Basic Course",
-    duration: "6 to 12 Months",
-    price: "₹39,999",
+    level: "Self Course",
+    duration: "3 Months",
+    price: "₹29,999",
     priceNote: "GST extra",
     image: "/images/academic/beauty-self-basic1.jpg",
     topics: [

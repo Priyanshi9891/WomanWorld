@@ -52,89 +52,134 @@ export default function ServicesPage() {
             SMALL HERO
         ====================================================== */}
 
-        <section className="relative h-[300px] md:h-[370px] overflow-hidden">
+        
+<section className="relative h-[300px] md:h-[370px] overflow-hidden">
 
-         <video
-  src="/images/services/hero.mp4"
-  autoPlay
-  loop
-  muted
-  playsInline
-  className="absolute inset-0 w-full h-full object-cover"
-/>
+  {/* Background Video */}
+  <video
+    src="/images/services/hero.mp4"
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="absolute inset-0 w-full h-full object-cover"
+  />
 
-          {/* Dark overlay */}
-          <div className="absolute inset-0 bg-[#3d071d]/65" />
+  {/* Dark overlay */}
+  <div className="absolute inset-0 bg-[#3d071d]/65" />
 
-          {/* Pink glow */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#3d071d]/80 via-transparent to-[#c2185b]/30" />
+  {/* Pink glow */}
+  <div className="absolute inset-0 bg-gradient-to-r from-[#3d071d]/80 via-transparent to-[#c2185b]/30" />
 
-          {/* Gold glow */}
-          <div className="absolute -bottom-20 left-1/2 -translate-x-1/2 w-96 h-96 bg-[#d4af37]/10 blur-3xl rounded-full" />
+  {/* Gold glow */}
+  <div className="absolute -bottom-20 left-1/2 -translate-x-1/2 w-96 h-96 bg-[#d4af37]/10 blur-3xl rounded-full" />
 
-          <div className="relative z-10 h-full flex items-center justify-center text-center px-5">
+  {/* Content */}
+  <div className="relative z-10 h-full flex items-center justify-center text-center px-5">
+    <div className="max-w-3xl">
 
-            <div className="max-w-3xl">
+      {/* Decorative top line */}
+      <div className="flex items-center justify-center gap-3 mb-4">
+        <span className="w-10 h-px bg-[#d4af37]" />
 
-              <div className="flex items-center justify-center gap-3 mb-4">
+        <Sparkles
+          size={15}
+          className="text-[#d4af37]"
+        />
 
-                <span className="w-10 h-px bg-[#d4af37]" />
+        <span className="w-10 h-px bg-[#d4af37]" />
+      </div>
 
-                <Sparkles
-                  size={15}
-                  className="text-[#d4af37]"
-                />
+      {/* Brand */}
+      <p
+        className="
+          text-[#f1d477]
+          text-[10px]
+          md:text-xs
+          uppercase
+          tracking-[0.3em]
+          font-semibold
+        "
+      >
+        Women's World
+      </p>
 
-                <span className="w-10 h-px bg-[#d4af37]" />
+      {/* Heading */}
+      <h1
+        className="
+          font-display
+          text-5xl
+          sm:text-6xl
+          md:text-7xl
+          text-white
+          mt-2
+        "
+      >
+        Our Services
+      </h1>
 
-              </div>
+      {/* Description */}
+      <p
+        className="
+          mt-4
+          text-white/75
+          text-sm
+          md:text-base
+          leading-7
+          max-w-xl
+          mx-auto
+        "
+      >
+        Discover beauty experiences crafted to make
+        you feel confident, radiant and unforgettable.
+      </p>
 
-              <p
-                className="
-                  text-[#f1d477]
-                  text-[10px]
-                  md:text-xs
-                  uppercase
-                  tracking-[0.3em]
-                  font-semibold
-                "
-              >
-                Women's World
-              </p>
+      {/* Book Appointment Button */}
+      <div className="mt-6 flex justify-center">
+        <Link
+          to="/book-services"
+          className="
+            group
+            inline-flex
+            items-center
+            justify-center
+            gap-2
+            px-7
+            py-3
+            rounded-full
+            bg-gradient-to-r
+            from-[#d4af37]
+            to-[#f1d477]
+            text-[#3d071d]
+            text-sm
+            font-semibold
+            shadow-lg
+            shadow-[#d4af37]/25
+            transition-all
+            duration-300
+            hover:scale-105
+            hover:shadow-[#d4af37]/50
+          "
+        >
+          Book Appointment
 
-              <h1
-                className="
-                  font-display
-                  text-5xl
-                  sm:text-6xl
-                  md:text-7xl
-                  text-white
-                  mt-2
-                "
-              >
-                Our Services
-              </h1>
+          <span
+            className="
+              text-lg
+              transition-transform
+              duration-300
+              group-hover:translate-x-1
+            "
+          >
+            →
+          </span>
+        </Link>
+      </div>
 
-              <p
-                className="
-                  mt-4
-                  text-white/75
-                  text-sm
-                  md:text-base
-                  leading-7
-                  max-w-xl
-                  mx-auto
-                "
-              >
-                Discover beauty experiences crafted to make
-                you feel confident, radiant and unforgettable.
-              </p>
+    </div>
+  </div>
+</section>
 
-            </div>
-
-          </div>
-
-        </section>
 
 
         {/* =====================================================

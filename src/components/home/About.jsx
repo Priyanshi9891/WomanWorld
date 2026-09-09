@@ -178,7 +178,7 @@ export default function About() {
               className="mt-9"
             >
               <Link
-                to="/academic-about"
+                to="/book-services"
                 className="
                   inline-flex
                   items-center
@@ -201,7 +201,7 @@ export default function About() {
                   hover:text-[#3d071d]
                 "
               >
-                Discover Our Story
+                Book Appointment
                 <ArrowUpRight size={16} />
               </Link>
             </motion.div>

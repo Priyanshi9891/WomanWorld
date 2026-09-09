@@ -34,8 +34,8 @@ export default function Offers() {
 
           <p
             className="
-              text-[9px]
-              sm:text-[10px]
+              text-[20px]
+              sm:text-[20px]
               uppercase
               tracking-[0.28em]
               font-semibold
@@ -180,7 +180,7 @@ export default function Offers() {
                 {/* Subtitle */}
                 <p
                   className="
-                    text-[8px]
+                    text-[15px]
                     uppercase
                     tracking-[0.25em]
                     font-semibold

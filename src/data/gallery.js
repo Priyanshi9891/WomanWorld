@@ -29,4 +29,34 @@ export const gallery = [
     image: "/images/gallery/gallery-6.jpg",
     title: "Our Experience",
   },
+  {
+    id: 7,
+    image: "/images/gallery/gallery-7.jpg",
+    title: "Our Experience",
+  },
+  {
+    id: 8,
+    image: "/images/gallery/gallery-8.jpg",
+    title: "Our Experience",
+  },
+  {
+    id: 9,
+    image: "/images/gallery/gallery-9.jpg",
+    title: "Our Experience",
+  },
+  {
+    id: 10,
+    image: "/images/gallery/gallery-10.jpg",
+    title: "Our Experience",
+  },
+  // {
+  //   id: 6,
+  //   image: "/images/gallery/gallery-6.jpg",
+  //   title: "Our Experience",
+  // },
+  // {
+  //   id: 6,
+  //   image: "/images/gallery/gallery-6.jpg",
+  //   title: "Our Experience",
+  // },
 ];

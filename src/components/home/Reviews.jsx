@@ -65,7 +65,7 @@ export default function Reviews() {
         >
           <SectionTitle
             eyebrow="Client Love"
-            title="Words From Beautiful Women"
+            title="What Our Clients Say"
             description="Because the best compliment is a returning client."
             light
           />

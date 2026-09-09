@@ -97,7 +97,7 @@ export default function BeforeAfter() {
           <div className="w-16 h-px bg-[#c9a227] mx-auto mb-5" />
 
           <h2 className="font-display text-4xl md:text-6xl text-[#3b2028]">
-            Beauty in Motion
+            Instagram Gallery
           </h2>
 
           <p className="mt-4 text-[#765963] max-w-2xl mx-auto">

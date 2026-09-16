@@ -101,7 +101,7 @@ export default function ServicesPage() {
           font-semibold
         "
       >
-        Women's World
+       Radiant Glow
       </p>
 
       {/* Heading */}

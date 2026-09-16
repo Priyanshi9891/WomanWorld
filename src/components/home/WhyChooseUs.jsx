@@ -290,7 +290,7 @@ export default function WhyChooseUs() {
         >
           <SectionTitle
             eyebrow="Why Women Choose Us"
-            title="The Women World Difference"
+            title="The Radiant Glow Difference"
             description="Because you deserve more than a beauty appointment."
           />
         </motion.div>

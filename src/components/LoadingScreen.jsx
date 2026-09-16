@@ -47,7 +47,7 @@ export default function LoadingScreen() {
           ✦
         </div>
 
-        <h1>Women’s World</h1>
+        <h1>Radiant Glow</h1>
 
         <p>BEAUTY • ELEGANCE • CONFIDENCE</p>
 

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 
 /**
- * ChatWidget — Women's World Salon and Academy
+ * ChatWidget — Radiant Glow Salon and Academy
  * -------------------------------------------------
  * Front-end-only FAQ chatbot.
  * No backend, no AI API, no external libraries.
@@ -12,10 +12,10 @@ import React, { useState, useRef, useEffect } from "react";
 // =====================================================
 
 const SALON_INFO = {
-  name: "Women's World Salon and Academy",
+  name: "Radiant Glow and Academy",
 
   greeting:
-    "Hi! I'm the Women's World assistant. Ask me about services, timings, courses or booking.",
+    "Hi! I'm the Radiant Glow assistant. Ask me about services, timings, courses or booking.",
 };
 
 // =====================================================
@@ -55,7 +55,7 @@ const FAQS = [
       "massage",
     ],
     answer:
-      "Women's World Salon & Academy offers a wide range of beauty and salon services including haircuts and styling, facials, bridal makeup, makeup, spa treatments, skincare, waxing, manicure, pedicure, threading and massage. Please visit our Services page for the latest service details and prices.",
+      "Radiant Glow Salon & Academy offers a wide range of beauty and salon services including haircuts and styling, facials, bridal makeup, makeup, spa treatments, skincare, waxing, manicure, pedicure, threading and massage. Please visit our Services page for the latest service details and prices.",
   },
 
 
@@ -77,7 +77,7 @@ const FAQS = [
       "when close",
     ],
     answer:
-      "Women's World Salon & Academy is open every day from 10:00 AM to 8:00 PM. Timings may differ on major public holidays.",
+      "Radiant Glow  Salon & Academy is open every day from 10:00 AM to 8:00 PM. Timings may differ on major public holidays.",
   },
 
 
@@ -101,7 +101,7 @@ const FAQS = [
       "city center",
     ],
     answer:
-      "We currently have two branches in Varanasi, Uttar Pradesh: Women's World Varanasi and Women's World City Centre.",
+      "We currently have two branches in Varanasi, Uttar Pradesh: Radiant Glow Varanasi and Radiant Glow City Centre.",
   },
 
 
@@ -113,15 +113,15 @@ const FAQS = [
     label: "Varanasi Branch",
     keywords: [
       "varanasi branch",
-      "women world varanasi",
-      "women's world varanasi",
+      "Radiant Glow varanasi",
+      "Radiant Glow varanasi",
       "varanasi address",
       "varanasi phone",
       "varanasi number",
       "varanasi contact",
     ],
     answer:
-      "Women's World Varanasi is located at 123 Luxury Avenue, Varanasi, Uttar Pradesh. Phone: +91 98765 43210. Opening hours: 10:00 AM – 8:00 PM.",
+      "Radiant Glow Varanasi is located at 123 Luxury Avenue, Varanasi, Uttar Pradesh. Phone: +91 98765 43210. Opening hours: 10:00 AM – 8:00 PM.",
   },
 
 
@@ -134,7 +134,7 @@ const FAQS = [
     keywords: [
       "city centre branch",
       "city center branch",
-      "women world city centre",
+      "Radiant Glow city centre",
       "women's world city centre",
       "city centre address",
       "city centre phone",
@@ -142,7 +142,7 @@ const FAQS = [
       "city centre contact",
     ],
     answer:
-      "Women's World City Centre is located at 45 Beauty Street, Varanasi, Uttar Pradesh. Phone: +91 98765 43211. Opening hours: 10:00 AM – 8:00 PM.",
+      "Radiant Glow City Centre is located at 45 Beauty Street, Varanasi, Uttar Pradesh. Phone: +91 98765 43211. Opening hours: 10:00 AM – 8:00 PM.",
   },
 
 
@@ -161,10 +161,10 @@ const FAQS = [
       "email",
       "reach",
       "contact salon",
-      "contact women world",
+      "contact Radiant Glow",
     ],
     answer:
-      "You can contact Women's World Salon & Academy by phone or WhatsApp. Women's World Varanasi: +91 98765 43210. Women's World City Centre: +91 98765 43211.",
+      "You can contact Radiant Glow Salon & Academy by phone or WhatsApp. Radiant Glow Varanasi: +91 98765 43210. Radiant Glow City Centre: +91 98765 43211.",
   },
 
 
@@ -210,7 +210,7 @@ const FAQS = [
       "study",
     ],
     answer:
-      "Women's World Academy offers professional courses in hair, beauty, makeup, skin and beauty therapy. Courses include practical training and certification. Available courses include Hair Chemical, Beauty, Make Up, and Skin & Beauty courses.",
+      "Radiant Glow Academy offers professional courses in hair, beauty, makeup, skin and beauty therapy. Courses include practical training and certification. Available courses include Hair Chemical, Beauty, Make Up, and Skin & Beauty courses.",
   },
 
 
@@ -368,7 +368,7 @@ const FAQS = [
       "nail extensions",
     ],
     answer:
-      "Permanent Nails Extension is available at Women's World. The price is available on enquiry. Please contact the salon for current pricing.",
+      "Permanent Nails Extension is available at Radiant Glow. The price is available on enquiry. Please contact the salon for current pricing.",
   },
 
 
@@ -384,7 +384,7 @@ const FAQS = [
       "hair extensions",
     ],
     answer:
-      "Permanent Hair Extension is available at Women's World. The price is available on enquiry. Please contact the salon for current pricing.",
+      "Permanent Hair Extension is available at Radiant Glow. The price is available on enquiry. Please contact the salon for current pricing.",
   },
 
 
@@ -403,7 +403,7 @@ const FAQS = [
       "lash extensions",
     ],
     answer:
-      "Eyelashes Extension is available at Women's World. The price is available on enquiry. Please contact the salon for current pricing.",
+      "Eyelashes Extension is available at Radiant Glow. The price is available on enquiry. Please contact the salon for current pricing.",
   },
 
 
@@ -428,7 +428,7 @@ const FAQS = [
       "professional products",
     ],
     answer:
-      "Women's World uses and offers professional beauty and hair-care products from brands including Schwarzkopf Professional, Godrej Professional, Brillare Professional, AgeLock, O2, Jeannot Ceuticals, SHEA and Lotus Professional.",
+      "Radiant Glow uses and offers professional beauty and hair-care products from brands including Schwarzkopf Professional, Godrej Professional, Brillare Professional, AgeLock, O2, Jeannot Ceuticals, SHEA and Lotus Professional.",
   },
 
 
@@ -743,7 +743,7 @@ const FAQS = [
       "experience",
     ],
     answer:
-      "Women's World has received positive customer feedback. Harshita Singh rated her first visit 5 stars and described the services as amazing. Anjali Singh also rated her experience 5 stars and praised the work. Gaurav rated the salon 5 stars and praised the hygiene, quality products and overall service.",
+      "Radiant Glow has received positive customer feedback. Harshita Singh rated her first visit 5 stars and described the services as amazing. Anjali Singh also rated her experience 5 stars and praised the work. Gaurav rated the salon 5 stars and praised the hygiene, quality products and overall service.",
   },
 
 
@@ -831,7 +831,7 @@ const FAQS = [
       "which courses",
     ],
     answer:
-      "Women's World Academy currently offers: Hair Chemical Course – Basic, Hair Chemical Course – Advance, Beauty Course – Self, Beauty Course – Basic, Make Up Course, and Skin & Beauty Course – Advance.",
+      "Radiant Glow Academy currently offers: Hair Chemical Course – Basic, Hair Chemical Course – Advance, Beauty Course – Self, Beauty Course – Basic, Make Up Course, and Skin & Beauty Course – Advance.",
   },
 
 
@@ -857,7 +857,7 @@ const FAQS = [
 
 
 const FALLBACK_ANSWER =
-  "I'm sorry, I don't have an answer for that yet. Please choose one of the quick questions below or contact Women's World Salon and Academy for more information.";
+  "I'm sorry, I don't have an answer for that yet. Please choose one of the quick questions below or contact Radiant Glow Salon and Academy for more information.";
 
 // =====================================================
 // 3. FIND ANSWER
@@ -1644,7 +1644,7 @@ export default function ChatWidget() {
     WHATSAPP BUTTON
 ============================================= */}
 <a
-  href="https://wa.me/919876543210?text=Hello%20Women's%20World%20Salon%20and%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+  href="https://wa.me/919839408887?text=Hello%20Women's%20World%20Salon%20and%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services."
   target="_blank"
   rel="noopener noreferrer"
   aria-label="Chat with us on WhatsApp"

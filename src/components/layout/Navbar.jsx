@@ -438,7 +438,7 @@ export default function Navbar() {
             >
 
               {/* LOGO IMAGE - ADDED */}
-             <img
+             {/* <img
   src="/images/logo/logo.png"
   alt="Women's World Logo"
   className="
@@ -455,7 +455,7 @@ export default function Navbar() {
     duration-300
     group-hover:scale-105
   "
-/>
+/> */}
               <div className="flex flex-col leading-none">
 
                 {/* COMPANY NAME */}
@@ -475,7 +475,7 @@ export default function Navbar() {
                     group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.35)]
                   "
                 >
-                  Women's World
+                  Radiant Glow
                 </span>
 
                 {/* SALON & ACADEMY */}
@@ -694,7 +694,7 @@ export default function Navbar() {
 
                 {/* LOGO IMAGE - ADDED */}
 
-                <img
+                {/* <img
                   src="/images/logo/logo.png"
                   alt="Women's World Logo"
                   className="
@@ -704,7 +704,7 @@ export default function Navbar() {
                     mx-auto
                     mb-2
                   "
-                />
+                /> */}
 
                 <div
                   className="
@@ -713,7 +713,7 @@ export default function Navbar() {
                     text-[#c9a227]
                   "
                 >
-                  Women's World
+                  Radiant Glow
                 </div>
 
                 <div

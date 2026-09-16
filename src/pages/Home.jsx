@@ -30,7 +30,7 @@ export default function Home() {
         <WhyChooseUs />
         <Academic />
         <Gallery />
-        <Branches />
+        
         <Reviews />
         <ImpactMatrix />
         <FAQ />

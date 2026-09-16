@@ -154,7 +154,7 @@ export default function Academic() {
           </p>
 
           <h2 className="font-display text-4xl md:text-5xl text-[#3d071d] mt-2">
-           Women's World Academy
+           Radiant Glow Academy
           </h2>
 
           <p className="text-sm text-[#3d071d]/60 leading-6 mt-3">
@@ -192,7 +192,7 @@ export default function Academic() {
             <img
               key={image}
               src={image}
-              alt={`Women's World Academy training ${index + 1}`}
+              alt={`Radiant Glow Academy training ${index + 1}`}
               className={`
                 absolute
                 inset-0

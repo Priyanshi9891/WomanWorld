@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const salonImages = [
-  "/images/salon/salon-1.jpg",
+  
   "/images/salon/salon-2.jpg",
   "/images/salon/salon-3.jpg",
   "/images/salon/salon-4.jpg",
@@ -60,7 +60,7 @@ export default function SalonShowcase() {
           >
             Our Salon{" "}
             <span className="text-[#c2185b] italic">
-              Women`s World
+              Radiant Glow
             </span>
           </h2>
 
@@ -111,7 +111,7 @@ export default function SalonShowcase() {
               <motion.img
                 key={current}
                 src={salonImages[current]}
-                alt={`Women World Salon ${current + 1}`}
+                alt={`Radiant Glow Salon ${current + 1}`}
                 initial={{
                   y: "100%",
                   opacity: 0,

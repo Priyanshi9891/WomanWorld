@@ -54,7 +54,7 @@ export default function Hero() {
           <motion.img
             key={heroImages[currentImage]}
             src={heroImages[currentImage]}
-            alt="Women World Beauty"
+            alt="Radiant Glow Beauty"
             className="
               absolute
               inset-0

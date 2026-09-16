@@ -93,7 +93,7 @@ export default function Gallery() {
           }}
         >
           <SectionTitle
-            eyebrow="Inside Women World"
+            eyebrow="Inside Radiant Glow"
             title="A Glimpse of Beauty"
             description="Explore moments from our world of elegance."
           />

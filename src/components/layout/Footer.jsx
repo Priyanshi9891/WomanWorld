@@ -177,7 +177,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h2 className="font-display text-4xl text-[#caa229]">
-              WOMEN WORLD
+              Radiant Glow
             </h2>
 
             <p className="mt-2 text-[10px] tracking-[0.3em] uppercase text-[#ff93b3]">
@@ -191,7 +191,7 @@ export default function Footer() {
             </p>
 
             {/* Social Icons */}
-            <div className="flex gap-3 mt-6">
+            {/* <div className="flex gap-3 mt-6">
               <a
                 href="https://www.instagram.com/womens_world_lanka"
                 target="_blank"
@@ -221,7 +221,7 @@ export default function Footer() {
               >
                 <FaGoogle size={17} />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -291,14 +291,11 @@ export default function Footer() {
 
             <div className="mt-6 space-y-4 text-sm text-[#f4dde4]/80">
               <p>
-                Behind V2 Building,
-                <br />
-                1st Floor, BHU, Lanka,
-                <br />
+               Near Lanka Pragya Hospital<br></br>
                 Varanasi, Uttar Pradesh
               </p>
 
-              <p>+91 95983 65954</p>
+              <p>+91 6386022738</p>
 
               
 
@@ -338,7 +335,7 @@ export default function Footer() {
           text-xs text-white/50"
         >
           <p>
-            © 2026 Women World Beauty. All rights reserved.
+            © 2026 Radiant Glow Beauty. All rights reserved.
           </p>
 
           <p>

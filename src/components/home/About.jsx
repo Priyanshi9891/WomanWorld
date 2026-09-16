@@ -143,7 +143,7 @@ export default function About() {
                 md:leading-8
               "
             >
-              Women World is more than a beauty destination.
+              Radiant Glow is more than a beauty destination.
               It is a space where confidence, elegance and
               individuality come together.
             </motion.p>

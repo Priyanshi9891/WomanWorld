@@ -35,7 +35,7 @@ export default function ProductsPage() {
 
           <img
             src="/images/products/hero.jpg"
-            alt="Women's World professional products"
+            alt="Radiant Glow professional products"
             className="absolute inset-0 w-full h-full object-cover"
           />
 
@@ -72,7 +72,7 @@ export default function ProductsPage() {
                   font-semibold
                 "
               >
-                Women's World
+                Radiant Glow
               </p>
 
               <h1

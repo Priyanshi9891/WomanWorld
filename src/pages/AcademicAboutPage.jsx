@@ -19,7 +19,7 @@ export default function AcademicAboutPage() {
 
           <img
             src="/images/academic/hero.jpg"
-            alt="Women's World Academy"
+            alt="Radiant Glow Academy"
             className="absolute inset-0 w-full h-full object-cover"
           />
 
@@ -56,7 +56,7 @@ export default function AcademicAboutPage() {
                   font-semibold
                 "
               >
-                Women's World Academy
+                Radiant Glow Academy
               </p>
 
               <h1
@@ -111,7 +111,7 @@ export default function AcademicAboutPage() {
             </h2>
 
             <p className="text-sm leading-7 text-[#3d071d]/60 mt-5 max-w-2xl mx-auto">
-              Women's World believes professional beauty is built on
+              Radiant Glow  believes professional beauty is built on
               knowledge, creativity, continuous learning and genuine
               care — every course below reflects the exact curriculum
               taught at our academy.

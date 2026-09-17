@@ -736,12 +736,12 @@ export default function Contact() {
             "
           >
             <iframe
-              title="Radiant Glow Salon Location"
-              src="https://www.google.com/maps?q=Women's+World+Salon,+1st+Floor,+BHU+Lanka+Road,+Behind+V2+Building,+Lanka,+Varanasi,+Uttar+Pradesh+221005&output=embed"
-              className="w-full h-full border-0"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
+  title="Radiant Glow Salon Location"
+  src="https://www.google.com/maps?q=Near+Lanka+Pragya+Hospital,+Varanasi,+Uttar+Pradesh&output=embed"
+  className="w-full h-full border-0"
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
 
             {/* Map Overlay Label */}
             <div
